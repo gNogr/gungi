@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<style>
+    body {
+        background: #3498db;
+    }
+
+    .gameContainer {
+        background: white;
+        display : block;
+        width: 65%;
+        height: 80%;
+        border-radius: 6px;
+        margin: 5% 3% 1% 1%;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 5px 5px 10px #888888;
+        position: relative;
+    }
+
+    .btn {
+        background: #2ecc71;
+        height: 30px;
+        color: white;
+        border-radius: 4px;
+    }
+
+    .btn:hover {
+        background: #2CC06B;
+    }
+</style>
+<body>
+    <div class="gameContainer">
+        <canvas id="joguinho" width="960" height="640"></canvas>
+    </div>
+    <div style="display:none;">
+        <img id="BK"
+             src="Pieces/B_marshal.png"
+             width="60" height="60">
+        <img id="BB"
+             src="Pieces/B_counsel.png"
+             width="60" height="60">
+        <img id="BR"
+             src="Pieces/B_fort.png"
+             width="60" height="60">
+        <img id="BGC"
+             src="Pieces/B_cannon.png"
+             width="60" height="60">
+        <img id="BCC"
+             src="Pieces/B_mortar.png"
+             width="60" height="60">
+        <img id="BGG"
+             src="Pieces/B_general.png"
+             width="60" height="60">
+        <img id="BSG"
+             src="Pieces/B_lieutenant.png"
+             width="60" height="60">
+        <img id="BCG"
+             src="Pieces/B_major.png"
+             width="60" height="60">
+        <img id="BS"
+             src="Pieces/B_samurai.png"
+             width="60" height="60">  
+        <img id="BSH"
+             src="Pieces/B_spy.png"
+             width="60" height="60">
+        <img id="BL"
+             src="Pieces/B_archer.png"
+             width="60" height="60">
+        <img id="BC"
+             src="Pieces/B_knight.png"
+             width="60" height="60"> 
+        <img id="BP"
+             src="Pieces/B_pawn.png"
+             width="60" height="60">
+        <img id="WK"
+             src="Pieces/W_marshal.png"
+             width="60" height="60">
+        <img id="WB"
+             src="Pieces/W_counsel.png"
+             width="60" height="60">
+        <img id="WR"
+             src="Pieces/W_fort.png"
+             width="60" height="60">
+        <img id="WGC"
+             src="Pieces/W_cannon.png"
+             width="60" height="60">
+        <img id="WCC"
+             src="Pieces/W_mortar.png"
+             width="60" height="60">
+        <img id="WGG"
+             src="Pieces/W_general.png"
+             width="60" height="60">
+        <img id="WSG"
+             src="Pieces/W_lieutenant.png"
+             width="60" height="60">
+        <img id="WCG"
+             src="Pieces/W_major.png"
+             width="60" height="60">
+        <img id="WS"
+             src="Pieces/W_samurai.png"
+             width="60" height="60">  
+        <img id="WSH"
+             src="Pieces/W_spy.png"
+             width="60" height="60">
+        <img id="WL"
+             src="Pieces/W_archer.png"
+             width="60" height="60">
+        <img id="WC"
+             src="Pieces/W_knight.png"
+             width="60" height="60"> 
+        <img id="WP"
+             src="Pieces/W_pawn.png"
+             width="60" height="60">    
+      </div>
+    <script src="game.js"></script>
+</body>
+</html>
